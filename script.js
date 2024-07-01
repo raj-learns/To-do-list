@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement('li');
 
         const taskSpan = document.createElement('span');
+        taskSpan.classList.add('task-text');
         taskSpan.textContent = `${task} - Due: ${dueDate}`;
 
         const completeIcon = document.createElement('span');
